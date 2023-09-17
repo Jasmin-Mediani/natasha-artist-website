@@ -1,4 +1,9 @@
-export default function Navbar ({ toggleMobileNav, setToggleMobileNav }) {
+'use client'
+import { useState } from 'react'
+
+export default function Navbar () {
+  const [toggleMobileNav, setToggleMobileNav] = useState(false)
+
   return (
     <div>
       <nav className='nav-desktop hidden lg:flex h-[70px] py-[15px] lg:h-[100px] flex justify-between '>
