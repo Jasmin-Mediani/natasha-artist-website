@@ -24,8 +24,17 @@ export default function Navbar ({ toggleMobileNav, setToggleMobileNav }) {
             className='h-[44px] w-[160px] mr-[20px]'
           />
 
-          <button onClick={() => setToggleMobileNav(!toggleMobileNav)}>
-            HB
+          <button
+            onClick={() => setToggleMobileNav(!toggleMobileNav)}
+            className='bg-[#0EB2E7] w-[40px] h-[40px] rounded'
+          >
+            <div>
+              {toggleMobileNav ? (
+                <img src='/assets/close.png' />
+              ) : (
+                <img src='/assets/hamburger.png' />
+              )}
+            </div>
           </button>
         </nav>
 
