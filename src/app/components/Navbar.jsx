@@ -5,8 +5,8 @@ export default function Navbar () {
   const [toggleMobileNav, setToggleMobileNav] = useState(false)
 
   return (
-    <div>
-      <nav className='nav-desktop hidden lg:flex h-[70px] py-[15px] lg:h-[100px] justify-between px-[20px] lg:px-[50px]'>
+    <div className='px-[20px] lg:px-[50px]'>
+      <nav className='nav-desktop hidden lg:flex h-[70px] py-[15px] lg:h-[100px] justify-between'>
         <img
           src='https://picsum.photos/220/60'
           alt=''
