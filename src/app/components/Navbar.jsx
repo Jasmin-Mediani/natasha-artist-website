@@ -6,9 +6,9 @@ export default function Navbar () {
 
   return (
     <div>
-      <nav className='nav-desktop hidden lg:flex h-[70px] py-[15px] lg:h-[100px] flex justify-between '>
+      <nav className='nav-desktop hidden lg:flex h-[70px] py-[15px] lg:h-[100px] justify-between px-[20px] lg:px-[50px]'>
         <img
-          src='https://picsum.photos/200'
+          src='https://picsum.photos/220/60'
           alt=''
           className='h-[61px] w-[220px]'
         />
@@ -18,6 +18,7 @@ export default function Navbar () {
           <li>Servizi</li>
           <li>Galleria</li>
           <li>Contatti</li>
+          <li className='bg-[#0EB2E7] p-3 px-10 text-white hover:bg-[#000C30]'>Negozio</li>
         </ul>
       </nav>
 
@@ -53,6 +54,7 @@ export default function Navbar () {
             <li className='h-[42px] flex items-center'>Servizi</li>
             <li className='h-[42px] flex items-center'>Galleria</li>
             <li className='h-[42px] flex items-center'>Contatti</li>
+            <li className='h-[42px] flex items-center bg-[#0EB2E7]'>Negozio</li>
           </ul>
         )}
       </div>

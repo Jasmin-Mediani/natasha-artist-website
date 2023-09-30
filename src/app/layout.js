@@ -13,7 +13,6 @@ export default function RootLayout ({ children }) {
   return (
     <html lang='en'>
       <body
-        className='px-[20px] lg:px-[50px]'
         style={{ fontFamily: 'Poppins-regular' }}
       >
         <Navbar />
