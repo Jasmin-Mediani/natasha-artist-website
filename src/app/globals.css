@@ -18,3 +18,8 @@
     src: url("../../public/fonts/Poppins/Poppins-Bold.ttf");
     font-weight: "700";
 }
+
+*,
+html {
+    scroll-behavior: smooth !important;
+}

@@ -13,12 +13,12 @@ export default function Navbar () {
           className='h-[61px] w-[220px]'
         />
         <ul className='flex gap-[30px] items-center'>
-          <li>Homepage</li>
-          <li>Chi sono</li>
-          <li>Servizi</li>
-          <li>Galleria</li>
-          <li>Contatti</li>
-          <li className='bg-[#0EB2E7] p-3 px-10 text-white hover:bg-[#000C30]'>Negozio</li>
+          <li><a href="/">Homepage</a></li>
+
+          <li><a href="/servizi">Servizi</a></li>
+          <li><a href="/galleria">Galleria</a></li>
+          <li><a href="/contatti">Contatti</a></li>
+          {/* <li className='bg-[#0EB2E7] p-3 px-10 text-white hover:bg-[#000C30]'>Negozio</li> */}
         </ul>
       </nav>
 
@@ -50,7 +50,6 @@ export default function Navbar () {
             style={{ borderBottom: '1px solid rgb(148 163 184)' }}
           >
             <li className='h-[42px] flex items-center'>Homepage</li>
-            <li className='h-[42px] flex items-center'>Chi sono</li>
             <li className='h-[42px] flex items-center'>Servizi</li>
             <li className='h-[42px] flex items-center'>Galleria</li>
             <li className='h-[42px] flex items-center'>Contatti</li>
