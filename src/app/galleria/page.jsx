@@ -29,7 +29,15 @@ export default function Galleria() {
 			<h2 className='lg:text-[42px] mb-6 text-center'> Galleria </h2>
 
 			<div className='flex gap-16'>
-				<div className='w-1/5 bg-gray-300 p-4 h-fit'><ul>{Object.keys(categorie).map(categoria => <li onClick={() => {setNomeCategoriaSelezionata(categoria), setCategoriaSelezionata(categorie[categoria])}} key={categoria}>{categoria}</li>)}</ul></div>
+				<div className='w-1/5 bg-gray-300 p-4 h-fit'>
+					<ul>
+						{Object.keys(categorie).map(categoria => 
+						
+							<li onClick={() => {setNomeCategoriaSelezionata(categoria), setCategoriaSelezionata(categorie[categoria])}} key={categoria}>{categoria}</li>)
+						
+						}
+					</ul>
+				</div>
 
 				<div className='w-4/5 bg-gray-300'>
 					<Sezione sezione={categoriaSelezionata != null ? categoriaSelezionata : categorie[primaCategoriaDisponibile]} />

@@ -83,11 +83,12 @@ export const categorie = {
             }
         ]
     },
-    'test': {
-        descrizione: "fksfdr", opere: [
+
+    // 'test': {
+    //     descrizione: "fksfdr", opere: [
            
-        ]
-    }
+    //     ]
+    // }
 }
 
 

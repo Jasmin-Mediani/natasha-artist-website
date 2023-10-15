@@ -5,7 +5,7 @@ const Sezione = ({sezione}) => {
     return (
         <div className="lg:py-[80px] lg:px-[100px]">
 
-           { sezione.opere > 0 ?  <>
+           { sezione.opere.length > 0 ?  <div>
            
             <p>{sezione.descrizione}</p>
 
@@ -19,7 +19,7 @@ const Sezione = ({sezione}) => {
 
             })}
            
-           </> : "Questa sezione non contiene opere" }
+           </div> : "Sezione in costruzione" }
         </div>
     )
 }
