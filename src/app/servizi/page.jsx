@@ -4,10 +4,10 @@ export default function Servizi() {
 <main className="w-full h-[calc(100vh - 100px)] bg-gradient-to-b from-[#F3F3F3] to-[#fff] p-[20px] lg:p-[50px]">
             <h2 className="lg:text-[42px] mb-6 text-center">Servizi</h2>
 
-            <ul>
+            <ul className="bg-white py-4 px-8 w-fit">
                 <li className="mb-4"><a href="#commissioni">Commissioni</a></li>
                 <li className="mb-4"><a href="#insegnamento">Insegnamento </a></li>
-                <li className="mb-4"><a href="#arte-come-terapia">Arte come terapia</a> </li>
+                <li className=""><a href="#arte-come-terapia">Arte come terapia</a> </li>
             </ul>
 
             <section className="pt-16" id="commissioni">
