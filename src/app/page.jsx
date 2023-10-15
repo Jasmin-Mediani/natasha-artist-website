@@ -12,12 +12,12 @@ export default function Home () {
         <div className="xl:block 2xl:hidden bg-[#0EB2E7] h-[165px] p-[30px] text-white flex items-center lg:text-[68px] mb-20 absolute top-[150px] " style={{ width: "max-content", right: 0 }} >Natasha Sood</div>
 
           <div className="flex flex-col content-between relative h-inherit">
-            {/* Banner xl */}
+            {/* Banner 2xl */}
             <div className="hidden 2xl:block bg-[#0EB2E7] h-[165px] p-[30px] text-white flex items-center lg:text-[68px] mb-20 absolute top-5 -left-[250px]" style={{ width: "calc(100% + 250px)" }} >Natasha Sood</div>
 
+            {/* Banner xl */}
+            {/* Banner lg */}
             {/* Banner md */}
-
-
             {/* Banner sm */}
 
             {/* Page main paragraph */}
