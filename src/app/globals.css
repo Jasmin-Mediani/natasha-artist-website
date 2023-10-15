@@ -23,3 +23,7 @@
 html {
     scroll-behavior: smooth !important;
 }
+
+body {
+    min-height: 100vh;
+}

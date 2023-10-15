@@ -1,14 +1,6 @@
-
-export const descrizioneDellaSezione = {
-    ritratti: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis perferendis commodi culpa laudantium, tempore perspiciatis voluptates iusto qui pariatur. Laboriosam doloribus iusto quisquam nemo aliquam iste aut consequuntur rerum facilis",
-    fiori: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident impedit ex corporis voluptas deserunt itaque reprehenderit, nesciunt recusandae quasi sunt',
-    animali: 'Earum unde saepe, quisquam aspernatur beatae alias delectus tempore suscipit tempora consequuntur necessitatibus eligendi aliquam ipsum quidem totam ea? Laboriosam consequatur delectus maiores voluptatem! Quaerat veniam ratione amet reiciendis accusantium ipsum eum dolorem voluptas consequuntur ducimus.',
-    'lavori degli studenti': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusantium animi, quisquam maiores quo reiciendis',
-}
-
 export const categorie = {
     ritratti: {
-        descrizione: "fdsvgdfg", opere: [
+        descrizione: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ad ullam dolore voluptatem veritatis, repellendus expedita. Similique ipsum repudiandae ipsa.", opere: [
             {
                 immagine: `https://picsum.photos/id/${Math.floor(Math.random() * 100) + 1}/300/300`,
                 titolo: 'Lorem ipsum dolor sit',
@@ -16,7 +8,7 @@ export const categorie = {
             },
             {
                 immagine: `https://picsum.photos/id/${Math.floor(Math.random() * 100) + 1}/300/300`,
-                titolo: 'Consectetur adipisicing elit. Est, tenetur?',
+                titolo: 'Consectetur adipisicing elit. Est, tenetur? josdfgvn ipsadfvg jipsdg i wdifvpwaògfvi swivogfhò rsgvloijera fgverfiògerlighj aerigkverfàpglaerjwg esrpi ',
                 prezzo: '480,00 €'
             },
             {
@@ -27,7 +19,7 @@ export const categorie = {
         ]
     },
     fiori: {
-        descrizione: "dfsadsadf", opere: [
+        descrizione: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae dolores accusantium suscipit veniam aliquam. Quisquam recusandae suscipit quae magnam. Magni neque quasi quod officiis quibusdam hic autem culpa praesentium, porro corrupti velit tempore consectetur libero", opere: [
             {
                 immagine: `https://picsum.photos/id/${Math.floor(Math.random() * 100) + 1}/300/300`,
                 titolo: 'Sit amet consectetur adipisicing elit',
@@ -46,7 +38,7 @@ export const categorie = {
         ]
     },
     animali: {
-        descrizione: "lorem lorem ipsum", opere: [
+        descrizione: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam culpa sed illo minus doloremque quisquam cumque obcaecati distinctio blanditiis corrupti possimus ducimus facere temporibus, tempora magni. Consectetur, ullam!", opere: [
             {
                 immagine: `https://picsum.photos/id/${Math.floor(Math.random() * 100) + 1}/300/300`,
                 titolo: 'Natus, incidunt cum.',
@@ -65,7 +57,7 @@ export const categorie = {
         ]
     },
     'lavori degli studenti': {
-        descrizione: "fksfdr", opere: [
+        descrizione: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nobis ratione nostrum accusamus, magnam cupiditate alias culpa quod corrupti dolor nisi rerum dolore voluptate numquam.", opere: [
             {
                 immagine: `https://picsum.photos/id/${Math.floor(Math.random() * 100) + 1}/300/300`,
                 titolo: 'Repellendus pariatur optio laborum!',
