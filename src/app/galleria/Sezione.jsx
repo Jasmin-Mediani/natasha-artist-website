@@ -1,18 +1,25 @@
-const Sezione = ({opere}) => {
+const Sezione = ({sezione}) => {
 
-    console.log(opere)
+    console.log(sezione)
 
     return (
-        <div>
-            {opere.map((opera, index) => {
+        <div className="lg:py-[80px] lg:px-[100px]">
+
+           { sezione.opere > 0 ?  <>
+           
+            <p>{sezione.descrizione}</p>
+
+            {sezione.opere.map((opera, index) => {
                 
-                return <div className="p-6 m-12 bg-pink-300" key={index}>
+                return <div className="mt-8 bg-pink-300" key={index}>
                     <p>{opera.titolo}</p>
                     <img src={opera.immagine} alt="" />
                     <p>{opera.prezzo}</p>
                 </div>
 
             })}
+           
+           </> : "Questa sezione non contiene opere" }
         </div>
     )
 }
