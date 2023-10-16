@@ -28,7 +28,7 @@ export default function Galleria() {
 			<h2 className='lg:text-[42px] mb-6 text-center'> Galleria </h2>
 
 			<div className='flex gap-16 flex justify-center'>
-				<div className='w-1/5 max-w-[330px] bg-white p-4 h-fit'>
+				<div className='w-fit max-w-[330px] bg-white p-4 h-fit'>
 					<ul>
 						{	Object.entries(categorie).map(([nomeCategoria, obj]) => 
 							
