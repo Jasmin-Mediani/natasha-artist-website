@@ -21,7 +21,7 @@ const Sezione = ({sezione}) => {
            
             <p>{sezione.descrizione}</p>
 
-            <div className="flex justify-between flex-col md:flex-row flex-wrap wrap gap-12 pt-12">
+            <div className="flex justify-center flex-col md:flex-row flex-wrap wrap gap-12 pt-12">
             {sezione.opere.map((opera, index) => {  
                     return <div key={index}>
                         <img src={opera.immagine} alt="" className="h-[300px] w-[300px]"/>
