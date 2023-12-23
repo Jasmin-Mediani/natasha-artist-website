@@ -50,9 +50,9 @@ export default function Navbar () {
             style={{ borderBottom: '1px solid rgb(148 163 184)' }}
           >
             <li className='h-[42px] flex items-center'>Homepage</li>
-            <li className='h-[42px] flex items-center'>Servizi</li>
-            <li className='h-[42px] flex items-center'>Galleria</li>
-            <li className='h-[42px] flex items-center'>Contatti</li>
+            <li className='h-[42px] flex items-center'><a href="/servizi">Servizi</a></li>
+            <li className='h-[42px] flex items-center'><a href="/galleria">Galleria</a></li>
+            <li className='h-[42px] flex items-center'> <a href="/contatti">Contatti</a></li>
             <li className='h-[42px] flex items-center bg-[#0EB2E7]'>Negozio</li>
           </ul>
         )}

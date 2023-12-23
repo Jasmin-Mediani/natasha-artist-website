@@ -32,7 +32,7 @@ export default function Galleria() {
 					<ul>
 						{	Object.entries(categorie).map(([nomeCategoria, obj]) => 
 							
-							<li className="flex justify-between" onClick={() => {setNomeCategoriaSelezionata(nomeCategoria), setCategoriaSelezionata(categorie[nomeCategoria])}} key={nomeCategoria}> <span> {nomeCategoria}</span> <span>( {obj.opere.length} ) </span> </li>
+							<li className="flex justify-between" onClick={() => {setNomeCategoriaSelezionata(nomeCategoria), setCategoriaSelezionata(categorie[nomeCategoria])}} key={nomeCategoria}> <span> {nomeCategoria}</span> <span>{obj.opere.length} </span> </li>
 						)} 
 						
 					</ul>
