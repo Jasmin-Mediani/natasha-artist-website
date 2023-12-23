@@ -9,7 +9,7 @@ export default function Home () {
         <img src="https://picsum.photos/id/64/750/500?grayscale" alt="" className="w-[750px] h-[500px]"/>
 
           
-        <div className="xl:block 2xl:hidden bg-[#0EB2E7] h-[165px] p-[30px] text-white flex items-center lg:text-[68px] mb-20 absolute top-[150px] " style={{ width: "max-content", right: 0 }} >Natasha Sood</div>
+        <div className="hidden lg:block 2xl:hidden bg-[#0EB2E7] h-[165px] p-[30px] text-white flex items-center lg:text-[68px] mb-20 absolute top-[150px] " style={{ width: "max-content", right: 0 }} >Natasha Sood</div>
 
           <div className="flex flex-col content-between relative h-inherit">
             {/* Banner 2xl */}
@@ -19,6 +19,9 @@ export default function Home () {
             {/* Banner lg */}
             {/* Banner md */}
             {/* Banner sm */}
+
+            <div className="lg:hidden bg-[#0EB2E7] p-[30px] text-white flex items-center text-[40px] mb-20">Natasha Sood</div>
+
 
             {/* Page main paragraph */}
             <h2 className="lg:text-[42px] mb-6 mt-[20px] 2xl:mt-[250px]">Lorem ipsum dolor sit amet</h2>
