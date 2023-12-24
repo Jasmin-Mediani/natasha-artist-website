@@ -63,11 +63,11 @@ export default function Home () {
               alt=''
               style={{ minWidth: '440px' }}
             />
-            <p className='mt-[10px]'>
+            {/* <p className='mt-[10px]'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
               praesentium expedita corrupti quia earum, libero voluptatibus
               laboriosam dolore quod cum.
-            </p>
+            </p> */}
           </div>
 
           <div>
@@ -118,7 +118,7 @@ export default function Home () {
             </div>
           </div>
         </div>
-        <div className='flex lg:flex-row mb-10 gap-20 justify-between lg:mt-12 w-[95%] mx-auto flex-col-reverse'>
+        <div className='flex lg:flex-row mb-10 lg:gap-20 justify-between lg:mt-12 w-[95%] mx-auto flex-col-reverse'>
           <div>
             <p className='mt-3 text-justify'>
               Having discovered my calling for art, I have remained true to it
@@ -156,7 +156,7 @@ export default function Home () {
           <div>
             <img
               src='https://picsum.photos/id/65/440/550'
-              className='max-w-[500px] mt-4'
+              className='max-w-[500px] lg:mt-4 mx-auto lg:mr-0 my-12 lg:my-0' 
               alt=''
             />
 
