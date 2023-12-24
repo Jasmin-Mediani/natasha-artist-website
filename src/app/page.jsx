@@ -8,11 +8,11 @@ export default function Home () {
           <img
             src='/assets/6X9A6141_BN.png'
             alt=''
-            className='max-w-[750px] max-h-[500px] w-fit'
+            className='w-fit'
           />
 
           <div
-            className='hidden lg:block bg-[#0EB2E7] h-[165px] p-[30px] text-white flex items-center lg:text-[68px] absolute top-[150px]'
+            className='hidden lg:block bg-[#0EB2E7] h-[165px] p-[30px] text-white flex items-center lg:text-[68px] absolute top-[150px] -t-12'
             style={{ width: '60vw', right: 0, marginTop: "30px" }}
           >
             Natasha Sood
@@ -50,7 +50,7 @@ export default function Home () {
 
             <img
               src='/assets/natasha.jpg'
-              className='max-w-[500px] md:float-left pb-0 md:pr-6 m-auto' 
+              className='md:float-left pb-0 md:pr-6 m-auto' 
               alt=''
             />
 
@@ -88,7 +88,7 @@ export default function Home () {
 
               <img
               src='/assets/IMG_20210915_124112_034.png'
-              className='max-w-[500px] md:my-0 md:float-right md:pl-6 pb-0 m-auto my-8' 
+              className='md:my-0 md:float-right md:pl-6 pb-0 m-auto my-8' 
               alt=''
             />
 
