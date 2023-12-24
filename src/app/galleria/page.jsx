@@ -24,11 +24,11 @@ export default function Galleria() {
 
 
 	return (
-		<main className='w-full bg-[#F3F3F3] to-[#fff] p-[20px] lg:p-[50px]' style={{ height: "calc(100vh - 100px)" }}>
-			<h2 className='lg:text-[42px] mb-6 text-center'> Galleria </h2>
+		<main className='w-full bg-[#F3F3F3] to-[#fff] p-[20px] lg:p-[50px]'>
+			<h2 className='lg:text-[42px] mb-6 text-center'> Gallery </h2>
 
-			<div className='flex gap-16 flex justify-center'>
-				<div className='w-fit max-w-[330px] bg-white p-4 h-fit'>
+			<div className='flex gap-16 flex justify-center flex-col lg:flex-row'>
+				<div className='lg:w-fit max-w-[330px] bg-white p-4 lg:h-fit'>
 					<ul>
 						{	Object.entries(categorie).map(([nomeCategoria, obj]) => 
 							
@@ -38,7 +38,7 @@ export default function Galleria() {
 					</ul>
 				</div>
 
-				<div className='w-4/5 bg-white max-w-[1350px]'>
+				<div className='lg:w-4/5 bg-white max-w-[1350px]'>
 					<Sezione sezione={categoriaSelezionata != null ? categoriaSelezionata : categorie[primaCategoriaDisponibile]} />
 				</div>
 			</div>
