@@ -94,7 +94,7 @@ export default function Home () {
                 I have of being in a thrall to something was due to works of art
                 seen on holiday or on school trips... the sculpture of a girl in
                 Vorontsov palace in Alupka by Quintilio Corbellini... Archip
-                Kuinziin's painting of the Dnieper in moonlight... The ability
+                Kuinziin&apos;s painting of the Dnieper in moonlight... The ability
                 of art to transport me to a special place was a leitmotif of my
                 life as I grew up. But my family was practically oriented and
                 the thought of going to art school, let alone becoming an
@@ -126,7 +126,7 @@ export default function Home () {
               understand that process better, and to help others gain from art
               as I have, I studied for a diploma in art therapy at ArTeA School
               in Milan. This taught me that art is above all a language, with
-              the ability to reveal otherwise hidden aspects of one's being.
+              the ability to reveal otherwise hidden aspects of one&apos;s being.
               While working for my diploma, I witnessed individuals though lost
               causes by almost everyone, inhabiting the shadows with no hope of
               a future, who by doing art realised to their surprise and joy that
@@ -143,10 +143,10 @@ export default function Home () {
               metier as an artist is painting. I like to paint flowers and
               animals, but I am fascinated, in particular, by portraiture. A
               face for me is a very personal, idiosyncratic landscape,
-              reflecting that person's journey through life. When I paint
-              someone's portrait, I travel the landscape of his life and give it
-              artistic form. As I do that, I am acutely aware of the painting's
-              capacity to influence that person's sense of self and to shape the
+              reflecting that person&apos;s journey through life. When I paint
+              someone&apos;s portrait, I travel the landscape of his life and give it
+              artistic form. As I do that, I am acutely aware of the painting&apos;s
+              capacity to influence that person&apos;s sense of self and to shape the
               environment in which it will be placed. And so in my portraits I
               focus on the brighter side of the lives of the people depicted and
               on their potential for a heartening future.
