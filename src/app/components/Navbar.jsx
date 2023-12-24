@@ -8,10 +8,11 @@ export default function Navbar () {
     <div className='px-[20px] lg:px-[50px]'>
       <nav className='nav-desktop hidden lg:flex h-[70px] py-[15px] lg:h-[100px] justify-between'>
         <img
-          src='https://picsum.photos/220/60?grayscale'
+          src='/assets/logo_1.png'
           alt=''
           className='h-[61px] w-[220px]'
         />
+        {/* <ul className='flex gap-[30px] items-center'><li>N S</li></ul> */}
         <ul className='flex gap-[30px] items-center'>
           <li><a href="/">Homepage</a></li>
 
