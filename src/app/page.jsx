@@ -28,7 +28,7 @@ export default function Home () {
             <h2 className='lg:text-[42px] mb-6 mt-[20px] text-[25px] '>
               Lorem ipsum dolor sit amet
             </h2>
-            <div className='mb-[40px] text-justify'>
+            <div className='mb-[40px] text-justify hyphens-auto'>
               Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec
               sollicitudin molestie malesuada. Curabitur arcu erat, accumsan id
               imperdiet et, porttitor at sem. Donec sollicitudin molestie
@@ -54,7 +54,7 @@ export default function Home () {
               alt=''
             />
 
-              <p className='text-justify mb-3 md:mt-0 mt-8'>
+              <p className='text-justify mb-3 md:mt-0 mt-8 hyphens-auto'>
                 I was born and brought up in a small frontier city deep within
                 Eurasia, where the Siberian forests meet the open steppe. Though
                 there were no art galleries or museums in my city, we had a lot
@@ -71,7 +71,7 @@ export default function Home () {
                 artist, never entered my mind until much, much later and in a
                 very different place.
               </p>
-              <p className='mb-3 text-justify'>
+              <p className='mb-3 text-justify hyphens-auto'>
                 It was not until my early thirties that I tried my hand at art
                 for the first time. The spur was a visit to MoMa in Berlin. I
                 had never before encountered modern art, and it evoked in me a
@@ -92,7 +92,7 @@ export default function Home () {
               alt=''
             />
 
-              <p className='mt-3 text-justify'>
+              <p className='mt-3 text-justify hyphens-auto'>
               Having discovered my calling for art, I have remained true to it
               ever since. It has been of huge benefit to me psychologically. To
               understand that process better, and to help others gain from art
@@ -106,7 +106,7 @@ export default function Home () {
               confidence to enter society and work towards realising their
               potential.
             </p>
-            <p className='mt-3 text-justify'>
+            <p className='mt-3 text-justify hyphens-auto'>
               This understanding informs me as an art teacher and the art I do.
               Knowing the language of art and how it is articulated in practice
               enables me to guide my students to discern the means best - and
