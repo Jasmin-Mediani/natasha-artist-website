@@ -12,8 +12,8 @@ export default function Home () {
           />
 
           <div
-            className='hidden lg:block bg-[#0EB2E7] h-[165px] p-[30px] text-white flex items-center lg:text-[68px] absolute top-[150px] '
-            style={{ width: '60vw', right: 0 }}
+            className='hidden lg:block bg-[#0EB2E7] h-[165px] p-[30px] text-white flex items-center lg:text-[68px] absolute top-[150px]'
+            style={{ width: '60vw', right: 0, marginTop: "30px" }}
           >
             Natasha Sood
           </div>
