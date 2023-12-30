@@ -2,11 +2,11 @@
 
 export default function Home () {
   return (
-      <main className='flex w-full justify-center lg:justify-normal bg-gradient-to-b from-[#F3F3F3] to-[#fff] p-[20px] lg:p-[50px] items-center' style={{ height: "calc(100vh - 100px)" }}>
-        <div className='2xl:flex xl:flex-row xl:gap-12 lg:justify-between lg:mx-auto pt-[0px] w-[95%] items-center lg:items-start justify-center flex flex-col'>
+      <main className='flex w-full justify-center lg:justify-normal bg-gradient-to-b from-[#F3F3F3] to-[#fff] p-[20px]  items-center' style={{ height: "calc(100vh - 100px)" }}>
+        <div className='2xl:flex xl:flex-row xl:gap-12 lg:justify-between lg:mx-auto pt-[0px] w-[95%] items-center lg:items-start justify-center flex flex-col 2xl:flex-col xl:self-start'>
           <img src='/assets/6X9A6141_BN.png' alt='' className='w-fit self-center' />
 
-          <div className='flex flex-col content-between relative h-inherit'>
+          <div className='flex flex-col content-between relative h-inherit max-w-[1350px] mx-auto'>
             {/* Page main paragraph */}
             <h2 className='lg:text-[42px] mb-6 mt-[20px] text-[25px] '>
               Lorem ipsum dolor sit amet
