@@ -5,7 +5,7 @@ export default function Navbar () {
   const [toggleMobileNav, setToggleMobileNav] = useState(false)
 
   return (
-    <div className='px-[20px] lg:px-[50px] max-w-[1350px] 2xl:mx-auto 2xl:items-center 2xl:justify-center mx-auto bg-orange-200'>
+    <div className='px-[20px] lg:px-[50px] max-w-[1350px] 2xl:mx-auto 2xl:items-center 2xl:justify-center mx-auto'>
       <nav className='nav-desktop hidden lg:flex h-[70px] py-[15px] lg:h-[100px] justify-between'>
         <img
           src='/assets/logo_1.png'
