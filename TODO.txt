@@ -1,0 +1,1 @@
+aumentare font size a 18px anziche 16px del testo base

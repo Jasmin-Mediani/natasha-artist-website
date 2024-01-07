@@ -1,6 +1,6 @@
 export default function ChiSono() {
 
-  // aumentare font size a 18px anziche 16px
+
   return (
     <main className="h-[calc(100vh - 100px)] w-full bg-gradient-to-b from-[#F3F3F3] to-[#fff] p-[20px] lg:p-[50px] lg:mx-auto pt-[0px]">
       <section className="w-[95%] mx-auto">
