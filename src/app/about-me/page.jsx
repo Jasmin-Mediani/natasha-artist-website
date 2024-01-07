@@ -1,4 +1,6 @@
 export default function ChiSono() {
+
+  // aumentare font size a 18px anziche 16px
   return (
     <main className="h-[calc(100vh - 100px)] w-full bg-gradient-to-b from-[#F3F3F3] to-[#fff] p-[20px] lg:p-[50px] lg:mx-auto pt-[0px]">
       <section className="w-[95%] mx-auto">
@@ -20,7 +22,7 @@ export default function ChiSono() {
           encourage me to do crafts, which I came to love. Throughout my
           childhood, art enchanted me. Indeed, the earliest memories I have of
           being enchanted was due to works of art seen on holiday or on school
-          trips... the sculpture of a girl in Vorontsov palace in Alupka by
+          trips ... the sculpture of a girl in Vorontsov palace in Alupka by
           Quintilio Corbellini ... Archip Kuinziin&apos;s painting of the Dnieper in
           moonlight ... The ability of art to transport me to a special place
           was a leitmotif of my life as I grew up. But my family was practical
