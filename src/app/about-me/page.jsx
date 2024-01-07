@@ -1,6 +1,4 @@
 export default function ChiSono() {
-
-
   return (
     <main className="h-[calc(100vh - 100px)] w-full bg-gradient-to-b from-[#F3F3F3] to-[#fff] p-[20px] lg:p-[50px] lg:mx-auto pt-[0px]">
       <section className="w-[95%] mx-auto">
@@ -10,7 +8,7 @@ export default function ChiSono() {
 
         <img
           src="/assets/natasha.jpg"
-          className="md:float-left pb-0 md:pr-6 m-auto"
+          className="w-full md:w-1/2 lg:w-[450px] md:float-left pb-0 md:pr-6 m-auto"
           alt=""
         />
 
@@ -46,7 +44,7 @@ export default function ChiSono() {
 
         <img
           src="/assets/IMG_20210915_124112_034.png"
-          className="md:my-0 md:float-right md:pl-6 pb-0 m-auto my-8"
+          className="w-full md:w-1/2 lg:w-[450px] md:my-0 md:float-right md:pl-6 pb-0 m-auto my-8"
           alt=""
         />
 
