@@ -21,7 +21,7 @@ export default function ChiSono() {
           childhood, art enchanted me. Indeed, the earliest memories I have of
           being enchanted was due to works of art seen on holiday or on school
           trips... the sculpture of a girl in Vorontsov palace in Alupka by
-          Quintilio Corbellini ... Archip Kuinziin's painting of the Dnieper in
+          Quintilio Corbellini ... Archip Kuinziin&apos;s painting of the Dnieper in
           moonlight ... The ability of art to transport me to a special place
           was a leitmotif of my life as I grew up. But my family was practical
           in nature and the thought of going to art school, let alone becoming
@@ -54,7 +54,7 @@ export default function ChiSono() {
           To understand that better, and to help others gain from art as I have,
           I studied for a diploma in art therapy at ArTeA School in Milan. This
           taught me that art is above all a language, with the capacity to
-          reveal otherwise hidden aspects of one's being. While working for my
+          reveal otherwise hidden aspects of one&apos;s being. While working for my
           diploma, I witnessed individuals deemed lost causes by almost
           everyone, inhabiting the shadows without hope of a future, who by
           doing art discovered to their surprise and delight that they have
@@ -69,10 +69,10 @@ export default function ChiSono() {
           has also proved invaluable for my own artwork. My metier as an artist
           is painting. I like to paint flowers and animals. However, I am
           especially fascinated by portraiture. A face for me is a very
-          personal, idiosyncratic landscape, reflecting a person's journey
-          through life. When I paint someone's portrait, I travel the landscape
+          personal, idiosyncratic landscape, reflecting a person&apos;s journey
+          through life. When I paint someone&apos;s portrait, I travel the landscape
           of his life and give it artistic form. As I do that, I am acutely
-          conscious of the painting's ability to influence that person's sense
+          conscious of the painting&apos;s ability to influence that person&apos;s sense
           of self and to shape the environment in which it will be placed. In
           the portraits I paint, I thus focus on the brighter side of the lives
           of the people shown and on the prospects for a heartening future.
