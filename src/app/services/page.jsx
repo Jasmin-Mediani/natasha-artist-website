@@ -1,7 +1,8 @@
 export default function Servizi() {
     return (
 <div>
-<main className="w-full h-[calc(100vh - 100px)] bg-gradient-to-b from-[#F3F3F3] to-[#fff] p-[20px] lg:p-[50px]">
+    <p className="text-center mt-16">Work in progress...</p>
+{/* <main className="w-full h-[calc(100vh - 100px)] bg-gradient-to-b from-[#F3F3F3] to-[#fff] p-[20px] lg:p-[50px]">
             <h2 className="lg:text-[42px] mb-6 text-center">Servizi</h2>
 
             <ul className="bg-white py-4 px-8 w-fit">
@@ -31,7 +32,7 @@ export default function Servizi() {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore tempora tempore ad facere temporibus cumque earum consequatur non deleniti!</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis blanditiis ratione vel nemo maiores tempore sunt, dolore quam praesentium. Assumenda similique odit esse nisi. Facere consequatur perspiciatis eos cupiditate ea doloribus ad iure corrupti suscipit esse ipsum veritatis quaerat, nostrum similique alias fugit rerum ut aliquam, tempore at recusandae. Officiis animi veritatis suscipit delectus repellat. At, quaerat unde. Nemo maiores et accusantium laboriosam, exercitationem vero quo neque natus qui quam minima deleniti tempore beatae quibusdam sequi maxime architecto blanditiis dolore!</p>
             </section>      
-        </main>
+        </main> */}
 </div>
     )
 }
