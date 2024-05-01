@@ -1,5 +1,5 @@
 export const categorie = {
-    ritratti: {
+    portraits: {
         descrizione: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ad ullam dolore voluptatem veritatis, repellendus expedita. Similique ipsum repudiandae ipsa.", opere: [
             {
                 immagine: `https://picsum.photos/id/${Math.floor(Math.random() * 100) + 1}/300/300`,
@@ -18,7 +18,7 @@ export const categorie = {
             }
         ]
     },
-    fiori: {
+    flowers: {
         descrizione: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae dolores accusantium suscipit veniam aliquam. Quisquam recusandae suscipit quae magnam. Magni neque quasi quod officiis quibusdam hic autem culpa praesentium, porro corrupti velit tempore consectetur libero", opere: [
             {
                 immagine: `https://picsum.photos/id/${Math.floor(Math.random() * 100) + 1}/300/300`,
@@ -37,7 +37,7 @@ export const categorie = {
             }
         ]
     },
-    animali: {
+    animals: {
         descrizione: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam culpa sed illo minus doloremque quisquam cumque obcaecati distinctio blanditiis corrupti possimus ducimus facere temporibus, tempora magni. Consectetur, ullam!", opere: [
             {
                 immagine: `https://picsum.photos/id/${Math.floor(Math.random() * 100) + 1}/300/300`,
@@ -56,7 +56,7 @@ export const categorie = {
             }
         ]
     },
-    'lavori degli studenti': {
+    'students\' paintings': {
         descrizione: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nobis ratione nostrum accusamus, magnam cupiditate alias culpa quod corrupti dolor nisi rerum dolore voluptate numquam.", opere: [
             {
                 immagine: `https://picsum.photos/id/${Math.floor(Math.random() * 100) + 1}/300/300`,

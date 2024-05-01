@@ -41,7 +41,8 @@ export default function Navbar () {
         <ul className='flex gap-[30px] items-center'>
           <li><a href="/">Homepage</a></li>
           <li><a href="/about-me">About me</a></li>
-          <li><a href="/services">Services</a></li>
+          <li><a href="/art-lessons">Art Lessons</a></li>
+          <li><a href="/commissions">Commissions</a></li>
           <li><a href="/gallery">Gallery</a></li>
           <li><a href="/contacts">Contacts</a></li>
           {/* <li className='bg-[#0EB2E7] p-3 px-10 text-white hover:bg-[#000C30]'>Shop</li> */}
@@ -85,7 +86,8 @@ export default function Navbar () {
           >
             <li className='h-[42px] flex items-center'><a href="/">Homepage</a></li>
             <li className='h-[42px] flex items-center'><a href="/about-me">About me</a></li>
-            <li className='h-[42px] flex items-center'><a href="/services">Services</a></li>
+            <li className='h-[42px] flex items-center'><a href="/commissions">Commissions</a></li>
+            <li className='h-[42px] flex items-center'><a href="/art-lessons">Art Lessons</a></li>
             <li className='h-[42px] flex items-center'><a href="/gallery">Gallery</a></li>
             <li className='h-[42px] flex items-center'> <a href="/contacts">Contacts</a></li>
             {/* <li className='h-[42px] flex items-center bg-[#0EB2E7]'>Shop</li> */}
