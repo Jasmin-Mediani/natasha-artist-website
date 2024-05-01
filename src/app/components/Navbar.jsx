@@ -7,11 +7,11 @@ export default function Navbar () {
   return (
     <div className='px-[20px] lg:px-[50px] max-w-[1350px] 2xl:mx-auto 2xl:items-center 2xl:justify-center mx-auto'>
       <nav className='nav-desktop hidden lg:flex h-[70px] py-[15px] lg:h-[100px] justify-between'>
-        <img
+       <a href="/"> <img
           src='/assets/logo_1.png'
           alt=''
           className='h-[61px] w-[220px]'
-        />
+        /></a>
         {/* <ul className='flex gap-[30px] items-center'><li>N S</li></ul> */}
         <ul className='flex gap-[30px] items-center'>
           <li><a href="/">Homepage</a></li>
@@ -27,12 +27,16 @@ export default function Navbar () {
         <nav className='nav-mobile h-[70px] lg:h-[100px] items-center justify-between flex '>
           
        <div style={{maxWidth: "160px"}}>
-       <img
+
+       <a href="/"> <img
           src='/assets/logo_1.png'
           alt=''
-          // className='h-[44px] w-[160px]'
+          style={{width: window.innerWidth < 280 ? "130px" : "144px"}}
+          className='h-[44px] w-[160px]'
+         
           
-        />
+        /></a>
+       
        </div>
 
           <button
