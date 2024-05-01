@@ -25,11 +25,15 @@ export default function Navbar () {
 
       <div className='lg:hidden'>
         <nav className='nav-mobile h-[70px] lg:h-[100px] items-center justify-between flex '>
-          <img
-            src='https://picsum.photos/200'
-            alt=''
-            className='h-[44px] w-[160px] mr-[20px]'
-          />
+          
+       <div style={{maxWidth: "160px"}}>
+       <img
+          src='/assets/logo_1.png'
+          alt=''
+          // className='h-[44px] w-[160px]'
+          
+        />
+       </div>
 
           <button
             onClick={() => setToggleMobileNav(!toggleMobileNav)}
