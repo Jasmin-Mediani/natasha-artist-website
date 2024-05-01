@@ -17,8 +17,8 @@ export default function Galleria () {
   }, [categorie])
 
   return (
-    <main className='w-full bg-[#F3F3F3] to-[#fff] p-[20px] lg:p-[50px]'>
-      <div className='mx-auto max-w-[1350px]'>
+    <main className='w-full bg-[#F3F3F3] to-[#fff] p-[20px] lg:p-[50px]' style={{minHeight: "calc(100vh - 100px)" }}>
+      <div className='mx-auto max-w-[1350px]' >
         <h2 className='lg:text-[42px] mb-6 text-center'> Gallery </h2>
 
         <div className='flex gap-16 flex justify-center flex-col lg:flex-row'>
